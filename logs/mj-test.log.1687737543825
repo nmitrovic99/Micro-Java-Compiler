@@ -1,0 +1,1965 @@
+INFO  01:58:02,097 - Compiling source file: C:\Users\neman\OneDrive\Desktop\Mikrojava compiler\workspace\MJCompiler\test\test301.mj
+INFO  01:58:02,176 - #2 program
+INFO  01:58:02,176 - #47 test301
+INFO  01:58:02,177 - #5 const
+INFO  01:58:02,178 - #47 int
+INFO  01:58:02,178 - #47 nula
+INFO  01:58:02,179 - #6 =
+INFO  01:58:02,179 - #44 0
+INFO  01:58:02,179 - #7 ;
+INFO  01:58:02,180 - #5 const
+INFO  01:58:02,182 - #47 int
+INFO  01:58:02,182 - #47 jedan
+INFO  01:58:02,182 - #6 =
+INFO  01:58:02,182 - #44 1
+INFO  01:58:02,182 - #7 ;
+INFO  01:58:02,182 - #5 const
+INFO  01:58:02,182 - #47 int
+INFO  01:58:02,182 - #47 pet
+INFO  01:58:02,182 - #6 =
+INFO  01:58:02,183 - #44 5
+INFO  01:58:02,183 - #7 ;
+INFO  01:58:02,183 - #47 int
+INFO  01:58:02,184 - #47 niz
+INFO  01:58:02,184 - #9 [
+INFO  01:58:02,184 - #10 ]
+INFO  01:58:02,184 - #8 ,
+INFO  01:58:02,185 - #47 niz2
+INFO  01:58:02,185 - #9 [
+INFO  01:58:02,185 - #10 ]
+INFO  01:58:02,185 - #8 ,
+INFO  01:58:02,185 - #47 a
+INFO  01:58:02,185 - #8 ,
+INFO  01:58:02,186 - #47 b
+INFO  01:58:02,186 - #7 ;
+INFO  01:58:02,186 - #47 char
+INFO  01:58:02,187 - #47 nizch
+INFO  01:58:02,187 - #9 [
+INFO  01:58:02,187 - #10 ]
+INFO  01:58:02,187 - #7 ;
+INFO  01:58:02,188 - #47 int
+INFO  01:58:02,188 - #47 mat
+INFO  01:58:02,188 - #9 [
+INFO  01:58:02,188 - #10 ]
+INFO  01:58:02,188 - #9 [
+INFO  01:58:02,188 - #10 ]
+INFO  01:58:02,189 - #7 ;
+INFO  01:58:02,190 - #3 {
+INFO  01:58:02,190 - #15 void
+INFO  01:58:02,191 - #47 main
+INFO  01:58:02,191 - #13 (
+INFO  01:58:02,192 - #14 )
+INFO  01:58:02,193 - #47 int
+INFO  01:58:02,194 - #47 bodovi
+INFO  01:58:02,194 - #7 ;
+INFO  01:58:02,194 - #47 bool
+INFO  01:58:02,194 - #47 bt
+INFO  01:58:02,194 - #7 ;
+INFO  01:58:02,194 - #3 {
+INFO  01:58:02,194 - #47 bodovi
+INFO  01:58:02,195 - #6 =
+INFO  01:58:02,195 - #44 0
+INFO  01:58:02,197 - #7 ;
+INFO  01:58:02,198 - #47 bodovi
+INFO  01:58:02,199 - #27 ++
+INFO  01:58:02,200 - #7 ;
+INFO  01:58:02,200 - #47 bodovi
+INFO  01:58:02,200 - #6 =
+INFO  01:58:02,201 - #47 bodovi
+INFO  01:58:02,201 - #38 +
+INFO  01:58:02,208 - #47 jedan
+INFO  01:58:02,210 - #7 ;
+INFO  01:58:02,210 - #47 bodovi
+INFO  01:58:02,210 - #6 =
+INFO  01:58:02,210 - #47 bodovi
+INFO  01:58:02,210 - #40 *
+INFO  01:58:02,210 - #47 pet
+INFO  01:58:02,212 - #7 ;
+INFO  01:58:02,212 - #47 bodovi
+INFO  01:58:02,212 - #28 --
+INFO  01:58:02,212 - #7 ;
+INFO  01:58:02,212 - #22 print
+INFO  01:58:02,212 - #13 (
+INFO  01:58:02,212 - #47 bodovi
+INFO  01:58:02,212 - #14 )
+INFO  01:58:02,213 - #7 ;
+INFO  01:58:02,213 - #47 niz
+INFO  01:58:02,213 - #6 =
+INFO  01:58:02,213 - #31 new
+INFO  01:58:02,213 - #47 int
+INFO  01:58:02,213 - #9 [
+INFO  01:58:02,213 - #44 3
+INFO  01:58:02,213 - #10 ]
+INFO  01:58:02,214 - #7 ;
+INFO  01:58:02,214 - #47 niz
+INFO  01:58:02,214 - #9 [
+INFO  01:58:02,214 - #47 nula
+INFO  01:58:02,214 - #10 ]
+INFO  01:58:02,215 - #6 =
+INFO  01:58:02,216 - #47 jedan
+INFO  01:58:02,216 - #7 ;
+INFO  01:58:02,216 - #47 niz
+INFO  01:58:02,216 - #9 [
+INFO  01:58:02,216 - #44 1
+INFO  01:58:02,217 - #10 ]
+INFO  01:58:02,217 - #6 =
+INFO  01:58:02,217 - #44 2
+INFO  01:58:02,217 - #7 ;
+INFO  01:58:02,217 - #47 niz
+INFO  01:58:02,218 - #9 [
+INFO  01:58:02,218 - #47 niz
+INFO  01:58:02,218 - #9 [
+INFO  01:58:02,218 - #47 jedan
+INFO  01:58:02,218 - #10 ]
+INFO  01:58:02,218 - #10 ]
+INFO  01:58:02,218 - #6 =
+INFO  01:58:02,219 - #47 niz
+INFO  01:58:02,219 - #9 [
+INFO  01:58:02,219 - #47 niz
+INFO  01:58:02,219 - #9 [
+INFO  01:58:02,219 - #44 0
+INFO  01:58:02,219 - #10 ]
+INFO  01:58:02,220 - #10 ]
+INFO  01:58:02,220 - #40 *
+INFO  01:58:02,220 - #44 3
+INFO  01:58:02,220 - #7 ;
+INFO  01:58:02,220 - #47 bodovi
+INFO  01:58:02,220 - #6 =
+INFO  01:58:02,221 - #47 niz
+INFO  01:58:02,221 - #9 [
+INFO  01:58:02,221 - #44 2
+INFO  01:58:02,221 - #10 ]
+INFO  01:58:02,221 - #41 /
+INFO  01:58:02,221 - #47 niz
+INFO  01:58:02,222 - #9 [
+INFO  01:58:02,223 - #44 0
+INFO  01:58:02,223 - #10 ]
+INFO  01:58:02,223 - #7 ;
+INFO  01:58:02,223 - #22 print
+INFO  01:58:02,223 - #13 (
+INFO  01:58:02,223 - #47 bodovi
+INFO  01:58:02,223 - #14 )
+INFO  01:58:02,224 - #7 ;
+INFO  01:58:02,224 - #22 print
+INFO  01:58:02,224 - #13 (
+INFO  01:58:02,224 - #47 niz
+INFO  01:58:02,224 - #9 [
+INFO  01:58:02,224 - #44 2
+INFO  01:58:02,224 - #10 ]
+INFO  01:58:02,224 - #14 )
+INFO  01:58:02,225 - #7 ;
+INFO  01:58:02,225 - #47 mat
+INFO  01:58:02,225 - #6 =
+INFO  01:58:02,225 - #31 new
+INFO  01:58:02,225 - #47 int
+INFO  01:58:02,225 - #9 [
+INFO  01:58:02,225 - #44 2
+INFO  01:58:02,225 - #10 ]
+INFO  01:58:02,226 - #9 [
+INFO  01:58:02,226 - #44 2
+INFO  01:58:02,226 - #10 ]
+INFO  01:58:02,226 - #7 ;
+INFO  01:58:02,226 - #47 mat
+INFO  01:58:02,226 - #9 [
+INFO  01:58:02,227 - #44 0
+INFO  01:58:02,227 - #10 ]
+INFO  01:58:02,227 - #9 [
+INFO  01:58:02,227 - #44 0
+INFO  01:58:02,227 - #10 ]
+INFO  01:58:02,227 - #6 =
+INFO  01:58:02,227 - #47 niz
+INFO  01:58:02,228 - #9 [
+INFO  01:58:02,228 - #47 nula
+INFO  01:58:02,228 - #10 ]
+INFO  01:58:02,228 - #7 ;
+INFO  01:58:02,228 - #47 mat
+INFO  01:58:02,228 - #9 [
+INFO  01:58:02,229 - #44 0
+INFO  01:58:02,229 - #10 ]
+INFO  01:58:02,229 - #9 [
+INFO  01:58:02,229 - #47 mat
+INFO  01:58:02,229 - #9 [
+INFO  01:58:02,229 - #44 0
+INFO  01:58:02,229 - #10 ]
+INFO  01:58:02,230 - #9 [
+INFO  01:58:02,230 - #44 0
+INFO  01:58:02,230 - #10 ]
+INFO  01:58:02,230 - #10 ]
+INFO  01:58:02,230 - #6 =
+INFO  01:58:02,230 - #44 2
+INFO  01:58:02,231 - #7 ;
+INFO  01:58:02,231 - #47 mat
+INFO  01:58:02,232 - #9 [
+INFO  01:58:02,232 - #44 1
+INFO  01:58:02,232 - #10 ]
+INFO  01:58:02,232 - #9 [
+INFO  01:58:02,233 - #47 jedan
+INFO  01:58:02,233 - #39 -
+INFO  01:58:02,233 - #47 niz
+INFO  01:58:02,234 - #9 [
+INFO  01:58:02,235 - #44 0
+INFO  01:58:02,235 - #10 ]
+INFO  01:58:02,235 - #10 ]
+INFO  01:58:02,236 - #6 =
+INFO  01:58:02,236 - #44 5
+INFO  01:58:02,236 - #7 ;
+INFO  01:58:02,236 - #47 mat
+INFO  01:58:02,236 - #9 [
+INFO  01:58:02,237 - #44 1
+INFO  01:58:02,237 - #10 ]
+INFO  01:58:02,237 - #9 [
+INFO  01:58:02,237 - #44 1
+INFO  01:58:02,237 - #10 ]
+INFO  01:58:02,237 - #6 =
+INFO  01:58:02,237 - #47 mat
+INFO  01:58:02,237 - #9 [
+INFO  01:58:02,237 - #44 0
+INFO  01:58:02,237 - #10 ]
+INFO  01:58:02,237 - #9 [
+INFO  01:58:02,237 - #44 0
+INFO  01:58:02,238 - #10 ]
+INFO  01:58:02,238 - #40 *
+INFO  01:58:02,238 - #47 mat
+INFO  01:58:02,238 - #9 [
+INFO  01:58:02,238 - #44 0
+INFO  01:58:02,238 - #10 ]
+INFO  01:58:02,239 - #9 [
+INFO  01:58:02,239 - #44 1
+INFO  01:58:02,239 - #10 ]
+INFO  01:58:02,239 - #7 ;
+INFO  01:58:02,239 - #22 print
+INFO  01:58:02,239 - #13 (
+INFO  01:58:02,239 - #47 mat
+INFO  01:58:02,240 - #9 [
+INFO  01:58:02,240 - #44 1
+INFO  01:58:02,240 - #10 ]
+INFO  01:58:02,240 - #9 [
+INFO  01:58:02,240 - #44 0
+INFO  01:58:02,240 - #10 ]
+INFO  01:58:02,240 - #14 )
+INFO  01:58:02,240 - #7 ;
+INFO  01:58:02,241 - #22 print
+INFO  01:58:02,241 - #13 (
+INFO  01:58:02,241 - #47 mat
+INFO  01:58:02,241 - #9 [
+INFO  01:58:02,241 - #44 1
+INFO  01:58:02,241 - #10 ]
+INFO  01:58:02,241 - #9 [
+INFO  01:58:02,241 - #44 1
+INFO  01:58:02,241 - #10 ]
+INFO  01:58:02,241 - #14 )
+INFO  01:58:02,242 - #7 ;
+INFO  01:58:02,242 - #47 nizch
+INFO  01:58:02,242 - #6 =
+INFO  01:58:02,242 - #31 new
+INFO  01:58:02,243 - #47 char
+INFO  01:58:02,243 - #9 [
+INFO  01:58:02,246 - #44 3
+INFO  01:58:02,246 - #10 ]
+INFO  01:58:02,247 - #7 ;
+INFO  01:58:02,247 - #47 nizch
+INFO  01:58:02,247 - #9 [
+INFO  01:58:02,247 - #44 0
+INFO  01:58:02,247 - #10 ]
+INFO  01:58:02,247 - #6 =
+INFO  01:58:02,248 - #45 a
+INFO  01:58:02,249 - #7 ;
+INFO  01:58:02,249 - #47 nizch
+INFO  01:58:02,249 - #9 [
+INFO  01:58:02,249 - #47 jedan
+INFO  01:58:02,249 - #10 ]
+INFO  01:58:02,249 - #6 =
+INFO  01:58:02,249 - #45 b
+INFO  01:58:02,249 - #7 ;
+INFO  01:58:02,250 - #47 nizch
+INFO  01:58:02,250 - #9 [
+INFO  01:58:02,250 - #47 pet
+INFO  01:58:02,250 - #39 -
+INFO  01:58:02,250 - #44 3
+INFO  01:58:02,250 - #10 ]
+INFO  01:58:02,250 - #6 =
+INFO  01:58:02,250 - #45 c
+INFO  01:58:02,250 - #7 ;
+INFO  01:58:02,250 - #22 print
+INFO  01:58:02,250 - #13 (
+INFO  01:58:02,251 - #47 nizch
+INFO  01:58:02,251 - #9 [
+INFO  01:58:02,251 - #44 1
+INFO  01:58:02,251 - #10 ]
+INFO  01:58:02,251 - #14 )
+INFO  01:58:02,251 - #7 ;
+INFO  01:58:02,251 - #22 print
+INFO  01:58:02,251 - #13 (
+INFO  01:58:02,251 - #47 nizch
+INFO  01:58:02,251 - #9 [
+INFO  01:58:02,252 - #47 jedan
+INFO  01:58:02,252 - #40 *
+INFO  01:58:02,252 - #44 2
+INFO  01:58:02,252 - #10 ]
+INFO  01:58:02,252 - #14 )
+INFO  01:58:02,252 - #7 ;
+INFO  01:58:02,252 - #21 read
+INFO  01:58:02,252 - #13 (
+INFO  01:58:02,252 - #47 bodovi
+INFO  01:58:02,252 - #14 )
+INFO  01:58:02,252 - #7 ;
+INFO  01:58:02,253 - #47 bodovi
+INFO  01:58:02,253 - #6 =
+INFO  01:58:02,253 - #39 -
+INFO  01:58:02,253 - #47 bodovi
+INFO  01:58:02,253 - #38 +
+INFO  01:58:02,253 - #13 (
+INFO  01:58:02,253 - #47 pet
+INFO  01:58:02,253 - #40 *
+INFO  01:58:02,253 - #47 a
+INFO  01:58:02,253 - #41 /
+INFO  01:58:02,254 - #44 2
+INFO  01:58:02,254 - #39 -
+INFO  01:58:02,254 - #47 jedan
+INFO  01:58:02,254 - #14 )
+INFO  01:58:02,254 - #40 *
+INFO  01:58:02,254 - #47 bodovi
+INFO  01:58:02,254 - #39 -
+INFO  01:58:02,254 - #13 (
+INFO  01:58:02,255 - #44 3
+INFO  01:58:02,255 - #42 %
+INFO  01:58:02,255 - #44 2
+INFO  01:58:02,256 - #38 +
+INFO  01:58:02,256 - #44 3
+INFO  01:58:02,256 - #40 *
+INFO  01:58:02,256 - #44 2
+INFO  01:58:02,256 - #39 -
+INFO  01:58:02,256 - #44 3
+INFO  01:58:02,256 - #14 )
+INFO  01:58:02,256 - #7 ;
+INFO  01:58:02,256 - #22 print
+INFO  01:58:02,256 - #13 (
+INFO  01:58:02,256 - #47 bodovi
+INFO  01:58:02,257 - #14 )
+INFO  01:58:02,257 - #7 ;
+INFO  01:58:02,257 - #4 }
+INFO  01:58:02,257 - #4 }
+INFO  01:58:02,305 - 
+Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ProgVarDeclarations(
+    ProgVarDeclarations(
+      ProgVarDeclarations(
+        ProgConstDeclarations(
+          ProgConstDeclarations(
+            ProgConstDeclarations(
+              NoProgDecl(
+              ) [NoProgDecl]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                SingleConstDeclarations(
+                 nula
+                  ConstantNum(
+                    ConstNum(
+                     0
+                    ) [ConstNum]
+                  ) [ConstantNum]
+                ) [SingleConstDeclarations]
+              ) [ConstDecl]
+            ) [ProgConstDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclarations(
+               jedan
+                ConstantNum(
+                  ConstNum(
+                   1
+                  ) [ConstNum]
+                ) [ConstantNum]
+              ) [SingleConstDeclarations]
+            ) [ConstDecl]
+          ) [ProgConstDeclarations]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclarations(
+             pet
+              ConstantNum(
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstantNum]
+            ) [SingleConstDeclarations]
+          ) [ConstDecl]
+        ) [ProgConstDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          MultipleVarDeclarations(
+            MultipleVarDeclarations(
+              MultipleVarDeclarations(
+                SingleVarDeclarations(
+                 niz
+                  ArraySquares(
+                  ) [ArraySquares]
+                ) [SingleVarDeclarations]
+               niz2
+                ArraySquares(
+                ) [ArraySquares]
+              ) [MultipleVarDeclarations]
+             a
+              NoArraySquares(
+              ) [NoArraySquares]
+            ) [MultipleVarDeclarations]
+           b
+            NoArraySquares(
+            ) [NoArraySquares]
+          ) [MultipleVarDeclarations]
+        ) [VarDeclaration]
+      ) [ProgVarDeclarations]
+      VarDeclaration(
+        Type(
+         char
+        ) [Type]
+        SingleVarDeclarations(
+         nizch
+          ArraySquares(
+          ) [ArraySquares]
+        ) [SingleVarDeclarations]
+      ) [VarDeclaration]
+    ) [ProgVarDeclarations]
+    VarDeclaration(
+      Type(
+       int
+      ) [Type]
+      SingleVarDeclarations(
+       mat
+        ArrayMatrix(
+        ) [ArrayMatrix]
+      ) [SingleVarDeclarations]
+    ) [VarDeclaration]
+  ) [ProgVarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclVoid(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            SingleVarDeclarations(
+             bodovi
+              NoArraySquares(
+              ) [NoArraySquares]
+            ) [SingleVarDeclarations]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          SingleVarDeclarations(
+           bt
+            NoArraySquares(
+            ) [NoArraySquares]
+          ) [SingleVarDeclarations]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              Statements(
+                                                                NoStatement(
+                                                                ) [NoStatement]
+                                                                MatchedStmt(
+                                                                  DesigStmtAssignop(
+                                                                    DesigSingleIdent(
+                                                                     bodovi
+                                                                    ) [DesigSingleIdent]
+                                                                    Assignop(
+                                                                    ) [Assignop]
+                                                                    Expr(
+                                                                      SingleTerm(
+                                                                        NoExprMinus(
+                                                                        ) [NoExprMinus]
+                                                                        SingleFactor(
+                                                                          FactNumConst(
+                                                                           0
+                                                                          ) [FactNumConst]
+                                                                        ) [SingleFactor]
+                                                                      ) [SingleTerm]
+                                                                    ) [Expr]
+                                                                  ) [DesigStmtAssignop]
+                                                                ) [MatchedStmt]
+                                                              ) [Statements]
+                                                              MatchedStmt(
+                                                                StmtDesignator(
+                                                                  DesigStmtInc(
+                                                                    DesigSingleIdent(
+                                                                     bodovi
+                                                                    ) [DesigSingleIdent]
+                                                                  ) [DesigStmtInc]
+                                                                ) [StmtDesignator]
+                                                              ) [MatchedStmt]
+                                                            ) [Statements]
+                                                            MatchedStmt(
+                                                              DesigStmtAssignop(
+                                                                DesigSingleIdent(
+                                                                 bodovi
+                                                                ) [DesigSingleIdent]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                Expr(
+                                                                  AddExpr(
+                                                                    SingleTerm(
+                                                                      NoExprMinus(
+                                                                      ) [NoExprMinus]
+                                                                      SingleFactor(
+                                                                        FactVar(
+                                                                          DesigSingleIdent(
+                                                                           bodovi
+                                                                          ) [DesigSingleIdent]
+                                                                        ) [FactVar]
+                                                                      ) [SingleFactor]
+                                                                    ) [SingleTerm]
+                                                                    AddopPlus(
+                                                                    ) [AddopPlus]
+                                                                    SingleFactor(
+                                                                      FactVar(
+                                                                        DesigSingleIdent(
+                                                                         jedan
+                                                                        ) [DesigSingleIdent]
+                                                                      ) [FactVar]
+                                                                    ) [SingleFactor]
+                                                                  ) [AddExpr]
+                                                                ) [Expr]
+                                                              ) [DesigStmtAssignop]
+                                                            ) [MatchedStmt]
+                                                          ) [Statements]
+                                                          MatchedStmt(
+                                                            DesigStmtAssignop(
+                                                              DesigSingleIdent(
+                                                               bodovi
+                                                              ) [DesigSingleIdent]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              Expr(
+                                                                SingleTerm(
+                                                                  NoExprMinus(
+                                                                  ) [NoExprMinus]
+                                                                  MultFactors(
+                                                                    SingleFactor(
+                                                                      FactVar(
+                                                                        DesigSingleIdent(
+                                                                         bodovi
+                                                                        ) [DesigSingleIdent]
+                                                                      ) [FactVar]
+                                                                    ) [SingleFactor]
+                                                                    MulopTimes(
+                                                                    ) [MulopTimes]
+                                                                    FactVar(
+                                                                      DesigSingleIdent(
+                                                                       pet
+                                                                      ) [DesigSingleIdent]
+                                                                    ) [FactVar]
+                                                                  ) [MultFactors]
+                                                                ) [SingleTerm]
+                                                              ) [Expr]
+                                                            ) [DesigStmtAssignop]
+                                                          ) [MatchedStmt]
+                                                        ) [Statements]
+                                                        MatchedStmt(
+                                                          StmtDesignator(
+                                                            DesigStmtDec(
+                                                              DesigSingleIdent(
+                                                               bodovi
+                                                              ) [DesigSingleIdent]
+                                                            ) [DesigStmtDec]
+                                                          ) [StmtDesignator]
+                                                        ) [MatchedStmt]
+                                                      ) [Statements]
+                                                      MatchedStmt(
+                                                        StmtPrint(
+                                                          Expr(
+                                                            SingleTerm(
+                                                              NoExprMinus(
+                                                              ) [NoExprMinus]
+                                                              SingleFactor(
+                                                                FactVar(
+                                                                  DesigSingleIdent(
+                                                                   bodovi
+                                                                  ) [DesigSingleIdent]
+                                                                ) [FactVar]
+                                                              ) [SingleFactor]
+                                                            ) [SingleTerm]
+                                                          ) [Expr]
+                                                        ) [StmtPrint]
+                                                      ) [MatchedStmt]
+                                                    ) [Statements]
+                                                    MatchedStmt(
+                                                      DesigStmtAssignop(
+                                                        DesigSingleIdent(
+                                                         niz
+                                                        ) [DesigSingleIdent]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        Expr(
+                                                          SingleTerm(
+                                                            NoExprMinus(
+                                                            ) [NoExprMinus]
+                                                            SingleFactor(
+                                                              FactNewArray(
+                                                                Type(
+                                                                 int
+                                                                ) [Type]
+                                                                Expr(
+                                                                  SingleTerm(
+                                                                    NoExprMinus(
+                                                                    ) [NoExprMinus]
+                                                                    SingleFactor(
+                                                                      FactNumConst(
+                                                                       3
+                                                                      ) [FactNumConst]
+                                                                    ) [SingleFactor]
+                                                                  ) [SingleTerm]
+                                                                ) [Expr]
+                                                              ) [FactNewArray]
+                                                            ) [SingleFactor]
+                                                          ) [SingleTerm]
+                                                        ) [Expr]
+                                                      ) [DesigStmtAssignop]
+                                                    ) [MatchedStmt]
+                                                  ) [Statements]
+                                                  MatchedStmt(
+                                                    DesigStmtAssignop(
+                                                      DesigMoreIdents(
+                                                        DesigSingleIdent(
+                                                         niz
+                                                        ) [DesigSingleIdent]
+                                                        IdentArray(
+                                                          Expr(
+                                                            SingleTerm(
+                                                              NoExprMinus(
+                                                              ) [NoExprMinus]
+                                                              SingleFactor(
+                                                                FactVar(
+                                                                  DesigSingleIdent(
+                                                                   nula
+                                                                  ) [DesigSingleIdent]
+                                                                ) [FactVar]
+                                                              ) [SingleFactor]
+                                                            ) [SingleTerm]
+                                                          ) [Expr]
+                                                        ) [IdentArray]
+                                                      ) [DesigMoreIdents]
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      Expr(
+                                                        SingleTerm(
+                                                          NoExprMinus(
+                                                          ) [NoExprMinus]
+                                                          SingleFactor(
+                                                            FactVar(
+                                                              DesigSingleIdent(
+                                                               jedan
+                                                              ) [DesigSingleIdent]
+                                                            ) [FactVar]
+                                                          ) [SingleFactor]
+                                                        ) [SingleTerm]
+                                                      ) [Expr]
+                                                    ) [DesigStmtAssignop]
+                                                  ) [MatchedStmt]
+                                                ) [Statements]
+                                                MatchedStmt(
+                                                  DesigStmtAssignop(
+                                                    DesigMoreIdents(
+                                                      DesigSingleIdent(
+                                                       niz
+                                                      ) [DesigSingleIdent]
+                                                      IdentArray(
+                                                        Expr(
+                                                          SingleTerm(
+                                                            NoExprMinus(
+                                                            ) [NoExprMinus]
+                                                            SingleFactor(
+                                                              FactNumConst(
+                                                               1
+                                                              ) [FactNumConst]
+                                                            ) [SingleFactor]
+                                                          ) [SingleTerm]
+                                                        ) [Expr]
+                                                      ) [IdentArray]
+                                                    ) [DesigMoreIdents]
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    Expr(
+                                                      SingleTerm(
+                                                        NoExprMinus(
+                                                        ) [NoExprMinus]
+                                                        SingleFactor(
+                                                          FactNumConst(
+                                                           2
+                                                          ) [FactNumConst]
+                                                        ) [SingleFactor]
+                                                      ) [SingleTerm]
+                                                    ) [Expr]
+                                                  ) [DesigStmtAssignop]
+                                                ) [MatchedStmt]
+                                              ) [Statements]
+                                              MatchedStmt(
+                                                DesigStmtAssignop(
+                                                  DesigMoreIdents(
+                                                    DesigSingleIdent(
+                                                     niz
+                                                    ) [DesigSingleIdent]
+                                                    IdentArray(
+                                                      Expr(
+                                                        SingleTerm(
+                                                          NoExprMinus(
+                                                          ) [NoExprMinus]
+                                                          SingleFactor(
+                                                            FactVar(
+                                                              DesigMoreIdents(
+                                                                DesigSingleIdent(
+                                                                 niz
+                                                                ) [DesigSingleIdent]
+                                                                IdentArray(
+                                                                  Expr(
+                                                                    SingleTerm(
+                                                                      NoExprMinus(
+                                                                      ) [NoExprMinus]
+                                                                      SingleFactor(
+                                                                        FactVar(
+                                                                          DesigSingleIdent(
+                                                                           jedan
+                                                                          ) [DesigSingleIdent]
+                                                                        ) [FactVar]
+                                                                      ) [SingleFactor]
+                                                                    ) [SingleTerm]
+                                                                  ) [Expr]
+                                                                ) [IdentArray]
+                                                              ) [DesigMoreIdents]
+                                                            ) [FactVar]
+                                                          ) [SingleFactor]
+                                                        ) [SingleTerm]
+                                                      ) [Expr]
+                                                    ) [IdentArray]
+                                                  ) [DesigMoreIdents]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Expr(
+                                                    SingleTerm(
+                                                      NoExprMinus(
+                                                      ) [NoExprMinus]
+                                                      MultFactors(
+                                                        SingleFactor(
+                                                          FactVar(
+                                                            DesigMoreIdents(
+                                                              DesigSingleIdent(
+                                                               niz
+                                                              ) [DesigSingleIdent]
+                                                              IdentArray(
+                                                                Expr(
+                                                                  SingleTerm(
+                                                                    NoExprMinus(
+                                                                    ) [NoExprMinus]
+                                                                    SingleFactor(
+                                                                      FactVar(
+                                                                        DesigMoreIdents(
+                                                                          DesigSingleIdent(
+                                                                           niz
+                                                                          ) [DesigSingleIdent]
+                                                                          IdentArray(
+                                                                            Expr(
+                                                                              SingleTerm(
+                                                                                NoExprMinus(
+                                                                                ) [NoExprMinus]
+                                                                                SingleFactor(
+                                                                                  FactNumConst(
+                                                                                   0
+                                                                                  ) [FactNumConst]
+                                                                                ) [SingleFactor]
+                                                                              ) [SingleTerm]
+                                                                            ) [Expr]
+                                                                          ) [IdentArray]
+                                                                        ) [DesigMoreIdents]
+                                                                      ) [FactVar]
+                                                                    ) [SingleFactor]
+                                                                  ) [SingleTerm]
+                                                                ) [Expr]
+                                                              ) [IdentArray]
+                                                            ) [DesigMoreIdents]
+                                                          ) [FactVar]
+                                                        ) [SingleFactor]
+                                                        MulopTimes(
+                                                        ) [MulopTimes]
+                                                        FactNumConst(
+                                                         3
+                                                        ) [FactNumConst]
+                                                      ) [MultFactors]
+                                                    ) [SingleTerm]
+                                                  ) [Expr]
+                                                ) [DesigStmtAssignop]
+                                              ) [MatchedStmt]
+                                            ) [Statements]
+                                            MatchedStmt(
+                                              DesigStmtAssignop(
+                                                DesigSingleIdent(
+                                                 bodovi
+                                                ) [DesigSingleIdent]
+                                                Assignop(
+                                                ) [Assignop]
+                                                Expr(
+                                                  SingleTerm(
+                                                    NoExprMinus(
+                                                    ) [NoExprMinus]
+                                                    MultFactors(
+                                                      SingleFactor(
+                                                        FactVar(
+                                                          DesigMoreIdents(
+                                                            DesigSingleIdent(
+                                                             niz
+                                                            ) [DesigSingleIdent]
+                                                            IdentArray(
+                                                              Expr(
+                                                                SingleTerm(
+                                                                  NoExprMinus(
+                                                                  ) [NoExprMinus]
+                                                                  SingleFactor(
+                                                                    FactNumConst(
+                                                                     2
+                                                                    ) [FactNumConst]
+                                                                  ) [SingleFactor]
+                                                                ) [SingleTerm]
+                                                              ) [Expr]
+                                                            ) [IdentArray]
+                                                          ) [DesigMoreIdents]
+                                                        ) [FactVar]
+                                                      ) [SingleFactor]
+                                                      MulopDivide(
+                                                      ) [MulopDivide]
+                                                      FactVar(
+                                                        DesigMoreIdents(
+                                                          DesigSingleIdent(
+                                                           niz
+                                                          ) [DesigSingleIdent]
+                                                          IdentArray(
+                                                            Expr(
+                                                              SingleTerm(
+                                                                NoExprMinus(
+                                                                ) [NoExprMinus]
+                                                                SingleFactor(
+                                                                  FactNumConst(
+                                                                   0
+                                                                  ) [FactNumConst]
+                                                                ) [SingleFactor]
+                                                              ) [SingleTerm]
+                                                            ) [Expr]
+                                                          ) [IdentArray]
+                                                        ) [DesigMoreIdents]
+                                                      ) [FactVar]
+                                                    ) [MultFactors]
+                                                  ) [SingleTerm]
+                                                ) [Expr]
+                                              ) [DesigStmtAssignop]
+                                            ) [MatchedStmt]
+                                          ) [Statements]
+                                          MatchedStmt(
+                                            StmtPrint(
+                                              Expr(
+                                                SingleTerm(
+                                                  NoExprMinus(
+                                                  ) [NoExprMinus]
+                                                  SingleFactor(
+                                                    FactVar(
+                                                      DesigSingleIdent(
+                                                       bodovi
+                                                      ) [DesigSingleIdent]
+                                                    ) [FactVar]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [Expr]
+                                            ) [StmtPrint]
+                                          ) [MatchedStmt]
+                                        ) [Statements]
+                                        MatchedStmt(
+                                          StmtPrint(
+                                            Expr(
+                                              SingleTerm(
+                                                NoExprMinus(
+                                                ) [NoExprMinus]
+                                                SingleFactor(
+                                                  FactVar(
+                                                    DesigMoreIdents(
+                                                      DesigSingleIdent(
+                                                       niz
+                                                      ) [DesigSingleIdent]
+                                                      IdentArray(
+                                                        Expr(
+                                                          SingleTerm(
+                                                            NoExprMinus(
+                                                            ) [NoExprMinus]
+                                                            SingleFactor(
+                                                              FactNumConst(
+                                                               2
+                                                              ) [FactNumConst]
+                                                            ) [SingleFactor]
+                                                          ) [SingleTerm]
+                                                        ) [Expr]
+                                                      ) [IdentArray]
+                                                    ) [DesigMoreIdents]
+                                                  ) [FactVar]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [Expr]
+                                          ) [StmtPrint]
+                                        ) [MatchedStmt]
+                                      ) [Statements]
+                                      MatchedStmt(
+                                        DesigStmtAssignop(
+                                          DesigSingleIdent(
+                                           mat
+                                          ) [DesigSingleIdent]
+                                          Assignop(
+                                          ) [Assignop]
+                                          Expr(
+                                            SingleTerm(
+                                              NoExprMinus(
+                                              ) [NoExprMinus]
+                                              SingleFactor(
+                                                FactNewMatrix(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  Expr(
+                                                    SingleTerm(
+                                                      NoExprMinus(
+                                                      ) [NoExprMinus]
+                                                      SingleFactor(
+                                                        FactNumConst(
+                                                         2
+                                                        ) [FactNumConst]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [Expr]
+                                                  Expr(
+                                                    SingleTerm(
+                                                      NoExprMinus(
+                                                      ) [NoExprMinus]
+                                                      SingleFactor(
+                                                        FactNumConst(
+                                                         2
+                                                        ) [FactNumConst]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [Expr]
+                                                ) [FactNewMatrix]
+                                              ) [SingleFactor]
+                                            ) [SingleTerm]
+                                          ) [Expr]
+                                        ) [DesigStmtAssignop]
+                                      ) [MatchedStmt]
+                                    ) [Statements]
+                                    MatchedStmt(
+                                      DesigStmtAssignop(
+                                        DesigMoreIdents(
+                                          DesigMoreIdents(
+                                            DesigSingleIdent(
+                                             mat
+                                            ) [DesigSingleIdent]
+                                            IdentArray(
+                                              Expr(
+                                                SingleTerm(
+                                                  NoExprMinus(
+                                                  ) [NoExprMinus]
+                                                  SingleFactor(
+                                                    FactNumConst(
+                                                     0
+                                                    ) [FactNumConst]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [Expr]
+                                            ) [IdentArray]
+                                          ) [DesigMoreIdents]
+                                          IdentArray(
+                                            Expr(
+                                              SingleTerm(
+                                                NoExprMinus(
+                                                ) [NoExprMinus]
+                                                SingleFactor(
+                                                  FactNumConst(
+                                                   0
+                                                  ) [FactNumConst]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [Expr]
+                                          ) [IdentArray]
+                                        ) [DesigMoreIdents]
+                                        Assignop(
+                                        ) [Assignop]
+                                        Expr(
+                                          SingleTerm(
+                                            NoExprMinus(
+                                            ) [NoExprMinus]
+                                            SingleFactor(
+                                              FactVar(
+                                                DesigMoreIdents(
+                                                  DesigSingleIdent(
+                                                   niz
+                                                  ) [DesigSingleIdent]
+                                                  IdentArray(
+                                                    Expr(
+                                                      SingleTerm(
+                                                        NoExprMinus(
+                                                        ) [NoExprMinus]
+                                                        SingleFactor(
+                                                          FactVar(
+                                                            DesigSingleIdent(
+                                                             nula
+                                                            ) [DesigSingleIdent]
+                                                          ) [FactVar]
+                                                        ) [SingleFactor]
+                                                      ) [SingleTerm]
+                                                    ) [Expr]
+                                                  ) [IdentArray]
+                                                ) [DesigMoreIdents]
+                                              ) [FactVar]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [Expr]
+                                      ) [DesigStmtAssignop]
+                                    ) [MatchedStmt]
+                                  ) [Statements]
+                                  MatchedStmt(
+                                    DesigStmtAssignop(
+                                      DesigMoreIdents(
+                                        DesigMoreIdents(
+                                          DesigSingleIdent(
+                                           mat
+                                          ) [DesigSingleIdent]
+                                          IdentArray(
+                                            Expr(
+                                              SingleTerm(
+                                                NoExprMinus(
+                                                ) [NoExprMinus]
+                                                SingleFactor(
+                                                  FactNumConst(
+                                                   0
+                                                  ) [FactNumConst]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [Expr]
+                                          ) [IdentArray]
+                                        ) [DesigMoreIdents]
+                                        IdentArray(
+                                          Expr(
+                                            SingleTerm(
+                                              NoExprMinus(
+                                              ) [NoExprMinus]
+                                              SingleFactor(
+                                                FactVar(
+                                                  DesigMoreIdents(
+                                                    DesigMoreIdents(
+                                                      DesigSingleIdent(
+                                                       mat
+                                                      ) [DesigSingleIdent]
+                                                      IdentArray(
+                                                        Expr(
+                                                          SingleTerm(
+                                                            NoExprMinus(
+                                                            ) [NoExprMinus]
+                                                            SingleFactor(
+                                                              FactNumConst(
+                                                               0
+                                                              ) [FactNumConst]
+                                                            ) [SingleFactor]
+                                                          ) [SingleTerm]
+                                                        ) [Expr]
+                                                      ) [IdentArray]
+                                                    ) [DesigMoreIdents]
+                                                    IdentArray(
+                                                      Expr(
+                                                        SingleTerm(
+                                                          NoExprMinus(
+                                                          ) [NoExprMinus]
+                                                          SingleFactor(
+                                                            FactNumConst(
+                                                             0
+                                                            ) [FactNumConst]
+                                                          ) [SingleFactor]
+                                                        ) [SingleTerm]
+                                                      ) [Expr]
+                                                    ) [IdentArray]
+                                                  ) [DesigMoreIdents]
+                                                ) [FactVar]
+                                              ) [SingleFactor]
+                                            ) [SingleTerm]
+                                          ) [Expr]
+                                        ) [IdentArray]
+                                      ) [DesigMoreIdents]
+                                      Assignop(
+                                      ) [Assignop]
+                                      Expr(
+                                        SingleTerm(
+                                          NoExprMinus(
+                                          ) [NoExprMinus]
+                                          SingleFactor(
+                                            FactNumConst(
+                                             2
+                                            ) [FactNumConst]
+                                          ) [SingleFactor]
+                                        ) [SingleTerm]
+                                      ) [Expr]
+                                    ) [DesigStmtAssignop]
+                                  ) [MatchedStmt]
+                                ) [Statements]
+                                MatchedStmt(
+                                  DesigStmtAssignop(
+                                    DesigMoreIdents(
+                                      DesigMoreIdents(
+                                        DesigSingleIdent(
+                                         mat
+                                        ) [DesigSingleIdent]
+                                        IdentArray(
+                                          Expr(
+                                            SingleTerm(
+                                              NoExprMinus(
+                                              ) [NoExprMinus]
+                                              SingleFactor(
+                                                FactNumConst(
+                                                 1
+                                                ) [FactNumConst]
+                                              ) [SingleFactor]
+                                            ) [SingleTerm]
+                                          ) [Expr]
+                                        ) [IdentArray]
+                                      ) [DesigMoreIdents]
+                                      IdentArray(
+                                        Expr(
+                                          AddExpr(
+                                            SingleTerm(
+                                              NoExprMinus(
+                                              ) [NoExprMinus]
+                                              SingleFactor(
+                                                FactVar(
+                                                  DesigSingleIdent(
+                                                   jedan
+                                                  ) [DesigSingleIdent]
+                                                ) [FactVar]
+                                              ) [SingleFactor]
+                                            ) [SingleTerm]
+                                            AddopMinus(
+                                            ) [AddopMinus]
+                                            SingleFactor(
+                                              FactVar(
+                                                DesigMoreIdents(
+                                                  DesigSingleIdent(
+                                                   niz
+                                                  ) [DesigSingleIdent]
+                                                  IdentArray(
+                                                    Expr(
+                                                      SingleTerm(
+                                                        NoExprMinus(
+                                                        ) [NoExprMinus]
+                                                        SingleFactor(
+                                                          FactNumConst(
+                                                           0
+                                                          ) [FactNumConst]
+                                                        ) [SingleFactor]
+                                                      ) [SingleTerm]
+                                                    ) [Expr]
+                                                  ) [IdentArray]
+                                                ) [DesigMoreIdents]
+                                              ) [FactVar]
+                                            ) [SingleFactor]
+                                          ) [AddExpr]
+                                        ) [Expr]
+                                      ) [IdentArray]
+                                    ) [DesigMoreIdents]
+                                    Assignop(
+                                    ) [Assignop]
+                                    Expr(
+                                      SingleTerm(
+                                        NoExprMinus(
+                                        ) [NoExprMinus]
+                                        SingleFactor(
+                                          FactNumConst(
+                                           5
+                                          ) [FactNumConst]
+                                        ) [SingleFactor]
+                                      ) [SingleTerm]
+                                    ) [Expr]
+                                  ) [DesigStmtAssignop]
+                                ) [MatchedStmt]
+                              ) [Statements]
+                              MatchedStmt(
+                                DesigStmtAssignop(
+                                  DesigMoreIdents(
+                                    DesigMoreIdents(
+                                      DesigSingleIdent(
+                                       mat
+                                      ) [DesigSingleIdent]
+                                      IdentArray(
+                                        Expr(
+                                          SingleTerm(
+                                            NoExprMinus(
+                                            ) [NoExprMinus]
+                                            SingleFactor(
+                                              FactNumConst(
+                                               1
+                                              ) [FactNumConst]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [Expr]
+                                      ) [IdentArray]
+                                    ) [DesigMoreIdents]
+                                    IdentArray(
+                                      Expr(
+                                        SingleTerm(
+                                          NoExprMinus(
+                                          ) [NoExprMinus]
+                                          SingleFactor(
+                                            FactNumConst(
+                                             1
+                                            ) [FactNumConst]
+                                          ) [SingleFactor]
+                                        ) [SingleTerm]
+                                      ) [Expr]
+                                    ) [IdentArray]
+                                  ) [DesigMoreIdents]
+                                  Assignop(
+                                  ) [Assignop]
+                                  Expr(
+                                    SingleTerm(
+                                      NoExprMinus(
+                                      ) [NoExprMinus]
+                                      MultFactors(
+                                        SingleFactor(
+                                          FactVar(
+                                            DesigMoreIdents(
+                                              DesigMoreIdents(
+                                                DesigSingleIdent(
+                                                 mat
+                                                ) [DesigSingleIdent]
+                                                IdentArray(
+                                                  Expr(
+                                                    SingleTerm(
+                                                      NoExprMinus(
+                                                      ) [NoExprMinus]
+                                                      SingleFactor(
+                                                        FactNumConst(
+                                                         0
+                                                        ) [FactNumConst]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [Expr]
+                                                ) [IdentArray]
+                                              ) [DesigMoreIdents]
+                                              IdentArray(
+                                                Expr(
+                                                  SingleTerm(
+                                                    NoExprMinus(
+                                                    ) [NoExprMinus]
+                                                    SingleFactor(
+                                                      FactNumConst(
+                                                       0
+                                                      ) [FactNumConst]
+                                                    ) [SingleFactor]
+                                                  ) [SingleTerm]
+                                                ) [Expr]
+                                              ) [IdentArray]
+                                            ) [DesigMoreIdents]
+                                          ) [FactVar]
+                                        ) [SingleFactor]
+                                        MulopTimes(
+                                        ) [MulopTimes]
+                                        FactVar(
+                                          DesigMoreIdents(
+                                            DesigMoreIdents(
+                                              DesigSingleIdent(
+                                               mat
+                                              ) [DesigSingleIdent]
+                                              IdentArray(
+                                                Expr(
+                                                  SingleTerm(
+                                                    NoExprMinus(
+                                                    ) [NoExprMinus]
+                                                    SingleFactor(
+                                                      FactNumConst(
+                                                       0
+                                                      ) [FactNumConst]
+                                                    ) [SingleFactor]
+                                                  ) [SingleTerm]
+                                                ) [Expr]
+                                              ) [IdentArray]
+                                            ) [DesigMoreIdents]
+                                            IdentArray(
+                                              Expr(
+                                                SingleTerm(
+                                                  NoExprMinus(
+                                                  ) [NoExprMinus]
+                                                  SingleFactor(
+                                                    FactNumConst(
+                                                     1
+                                                    ) [FactNumConst]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [Expr]
+                                            ) [IdentArray]
+                                          ) [DesigMoreIdents]
+                                        ) [FactVar]
+                                      ) [MultFactors]
+                                    ) [SingleTerm]
+                                  ) [Expr]
+                                ) [DesigStmtAssignop]
+                              ) [MatchedStmt]
+                            ) [Statements]
+                            MatchedStmt(
+                              StmtPrint(
+                                Expr(
+                                  SingleTerm(
+                                    NoExprMinus(
+                                    ) [NoExprMinus]
+                                    SingleFactor(
+                                      FactVar(
+                                        DesigMoreIdents(
+                                          DesigMoreIdents(
+                                            DesigSingleIdent(
+                                             mat
+                                            ) [DesigSingleIdent]
+                                            IdentArray(
+                                              Expr(
+                                                SingleTerm(
+                                                  NoExprMinus(
+                                                  ) [NoExprMinus]
+                                                  SingleFactor(
+                                                    FactNumConst(
+                                                     1
+                                                    ) [FactNumConst]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [Expr]
+                                            ) [IdentArray]
+                                          ) [DesigMoreIdents]
+                                          IdentArray(
+                                            Expr(
+                                              SingleTerm(
+                                                NoExprMinus(
+                                                ) [NoExprMinus]
+                                                SingleFactor(
+                                                  FactNumConst(
+                                                   0
+                                                  ) [FactNumConst]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [Expr]
+                                          ) [IdentArray]
+                                        ) [DesigMoreIdents]
+                                      ) [FactVar]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expr]
+                              ) [StmtPrint]
+                            ) [MatchedStmt]
+                          ) [Statements]
+                          MatchedStmt(
+                            StmtPrint(
+                              Expr(
+                                SingleTerm(
+                                  NoExprMinus(
+                                  ) [NoExprMinus]
+                                  SingleFactor(
+                                    FactVar(
+                                      DesigMoreIdents(
+                                        DesigMoreIdents(
+                                          DesigSingleIdent(
+                                           mat
+                                          ) [DesigSingleIdent]
+                                          IdentArray(
+                                            Expr(
+                                              SingleTerm(
+                                                NoExprMinus(
+                                                ) [NoExprMinus]
+                                                SingleFactor(
+                                                  FactNumConst(
+                                                   1
+                                                  ) [FactNumConst]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [Expr]
+                                          ) [IdentArray]
+                                        ) [DesigMoreIdents]
+                                        IdentArray(
+                                          Expr(
+                                            SingleTerm(
+                                              NoExprMinus(
+                                              ) [NoExprMinus]
+                                              SingleFactor(
+                                                FactNumConst(
+                                                 1
+                                                ) [FactNumConst]
+                                              ) [SingleFactor]
+                                            ) [SingleTerm]
+                                          ) [Expr]
+                                        ) [IdentArray]
+                                      ) [DesigMoreIdents]
+                                    ) [FactVar]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [Expr]
+                            ) [StmtPrint]
+                          ) [MatchedStmt]
+                        ) [Statements]
+                        MatchedStmt(
+                          DesigStmtAssignop(
+                            DesigSingleIdent(
+                             nizch
+                            ) [DesigSingleIdent]
+                            Assignop(
+                            ) [Assignop]
+                            Expr(
+                              SingleTerm(
+                                NoExprMinus(
+                                ) [NoExprMinus]
+                                SingleFactor(
+                                  FactNewArray(
+                                    Type(
+                                     char
+                                    ) [Type]
+                                    Expr(
+                                      SingleTerm(
+                                        NoExprMinus(
+                                        ) [NoExprMinus]
+                                        SingleFactor(
+                                          FactNumConst(
+                                           3
+                                          ) [FactNumConst]
+                                        ) [SingleFactor]
+                                      ) [SingleTerm]
+                                    ) [Expr]
+                                  ) [FactNewArray]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [Expr]
+                          ) [DesigStmtAssignop]
+                        ) [MatchedStmt]
+                      ) [Statements]
+                      MatchedStmt(
+                        DesigStmtAssignop(
+                          DesigMoreIdents(
+                            DesigSingleIdent(
+                             nizch
+                            ) [DesigSingleIdent]
+                            IdentArray(
+                              Expr(
+                                SingleTerm(
+                                  NoExprMinus(
+                                  ) [NoExprMinus]
+                                  SingleFactor(
+                                    FactNumConst(
+                                     0
+                                    ) [FactNumConst]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [Expr]
+                            ) [IdentArray]
+                          ) [DesigMoreIdents]
+                          Assignop(
+                          ) [Assignop]
+                          Expr(
+                            SingleTerm(
+                              NoExprMinus(
+                              ) [NoExprMinus]
+                              SingleFactor(
+                                FactCharConst(
+                                 a
+                                ) [FactCharConst]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [Expr]
+                        ) [DesigStmtAssignop]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                    MatchedStmt(
+                      DesigStmtAssignop(
+                        DesigMoreIdents(
+                          DesigSingleIdent(
+                           nizch
+                          ) [DesigSingleIdent]
+                          IdentArray(
+                            Expr(
+                              SingleTerm(
+                                NoExprMinus(
+                                ) [NoExprMinus]
+                                SingleFactor(
+                                  FactVar(
+                                    DesigSingleIdent(
+                                     jedan
+                                    ) [DesigSingleIdent]
+                                  ) [FactVar]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [Expr]
+                          ) [IdentArray]
+                        ) [DesigMoreIdents]
+                        Assignop(
+                        ) [Assignop]
+                        Expr(
+                          SingleTerm(
+                            NoExprMinus(
+                            ) [NoExprMinus]
+                            SingleFactor(
+                              FactCharConst(
+                               b
+                              ) [FactCharConst]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [Expr]
+                      ) [DesigStmtAssignop]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                  MatchedStmt(
+                    DesigStmtAssignop(
+                      DesigMoreIdents(
+                        DesigSingleIdent(
+                         nizch
+                        ) [DesigSingleIdent]
+                        IdentArray(
+                          Expr(
+                            AddExpr(
+                              SingleTerm(
+                                NoExprMinus(
+                                ) [NoExprMinus]
+                                SingleFactor(
+                                  FactVar(
+                                    DesigSingleIdent(
+                                     pet
+                                    ) [DesigSingleIdent]
+                                  ) [FactVar]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              SingleFactor(
+                                FactNumConst(
+                                 3
+                                ) [FactNumConst]
+                              ) [SingleFactor]
+                            ) [AddExpr]
+                          ) [Expr]
+                        ) [IdentArray]
+                      ) [DesigMoreIdents]
+                      Assignop(
+                      ) [Assignop]
+                      Expr(
+                        SingleTerm(
+                          NoExprMinus(
+                          ) [NoExprMinus]
+                          SingleFactor(
+                            FactCharConst(
+                             c
+                            ) [FactCharConst]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [Expr]
+                    ) [DesigStmtAssignop]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  StmtPrint(
+                    Expr(
+                      SingleTerm(
+                        NoExprMinus(
+                        ) [NoExprMinus]
+                        SingleFactor(
+                          FactVar(
+                            DesigMoreIdents(
+                              DesigSingleIdent(
+                               nizch
+                              ) [DesigSingleIdent]
+                              IdentArray(
+                                Expr(
+                                  SingleTerm(
+                                    NoExprMinus(
+                                    ) [NoExprMinus]
+                                    SingleFactor(
+                                      FactNumConst(
+                                       1
+                                      ) [FactNumConst]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expr]
+                              ) [IdentArray]
+                            ) [DesigMoreIdents]
+                          ) [FactVar]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [Expr]
+                  ) [StmtPrint]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                StmtPrint(
+                  Expr(
+                    SingleTerm(
+                      NoExprMinus(
+                      ) [NoExprMinus]
+                      SingleFactor(
+                        FactVar(
+                          DesigMoreIdents(
+                            DesigSingleIdent(
+                             nizch
+                            ) [DesigSingleIdent]
+                            IdentArray(
+                              Expr(
+                                SingleTerm(
+                                  NoExprMinus(
+                                  ) [NoExprMinus]
+                                  MultFactors(
+                                    SingleFactor(
+                                      FactVar(
+                                        DesigSingleIdent(
+                                         jedan
+                                        ) [DesigSingleIdent]
+                                      ) [FactVar]
+                                    ) [SingleFactor]
+                                    MulopTimes(
+                                    ) [MulopTimes]
+                                    FactNumConst(
+                                     2
+                                    ) [FactNumConst]
+                                  ) [MultFactors]
+                                ) [SingleTerm]
+                              ) [Expr]
+                            ) [IdentArray]
+                          ) [DesigMoreIdents]
+                        ) [FactVar]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [Expr]
+                ) [StmtPrint]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              StmtRead(
+                DesigSingleIdent(
+                 bodovi
+                ) [DesigSingleIdent]
+              ) [StmtRead]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesigStmtAssignop(
+              DesigSingleIdent(
+               bodovi
+              ) [DesigSingleIdent]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddExpr(
+                  AddExpr(
+                    SingleTerm(
+                      ExprMinus(
+                      ) [ExprMinus]
+                      SingleFactor(
+                        FactVar(
+                          DesigSingleIdent(
+                           bodovi
+                          ) [DesigSingleIdent]
+                        ) [FactVar]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    MultFactors(
+                      SingleFactor(
+                        FactExpr(
+                          Expr(
+                            AddExpr(
+                              SingleTerm(
+                                NoExprMinus(
+                                ) [NoExprMinus]
+                                MultFactors(
+                                  MultFactors(
+                                    SingleFactor(
+                                      FactVar(
+                                        DesigSingleIdent(
+                                         pet
+                                        ) [DesigSingleIdent]
+                                      ) [FactVar]
+                                    ) [SingleFactor]
+                                    MulopTimes(
+                                    ) [MulopTimes]
+                                    FactVar(
+                                      DesigSingleIdent(
+                                       a
+                                      ) [DesigSingleIdent]
+                                    ) [FactVar]
+                                  ) [MultFactors]
+                                  MulopDivide(
+                                  ) [MulopDivide]
+                                  FactNumConst(
+                                   2
+                                  ) [FactNumConst]
+                                ) [MultFactors]
+                              ) [SingleTerm]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              SingleFactor(
+                                FactVar(
+                                  DesigSingleIdent(
+                                   jedan
+                                  ) [DesigSingleIdent]
+                                ) [FactVar]
+                              ) [SingleFactor]
+                            ) [AddExpr]
+                          ) [Expr]
+                        ) [FactExpr]
+                      ) [SingleFactor]
+                      MulopTimes(
+                      ) [MulopTimes]
+                      FactVar(
+                        DesigSingleIdent(
+                         bodovi
+                        ) [DesigSingleIdent]
+                      ) [FactVar]
+                    ) [MultFactors]
+                  ) [AddExpr]
+                  AddopMinus(
+                  ) [AddopMinus]
+                  SingleFactor(
+                    FactExpr(
+                      Expr(
+                        AddExpr(
+                          AddExpr(
+                            SingleTerm(
+                              NoExprMinus(
+                              ) [NoExprMinus]
+                              MultFactors(
+                                SingleFactor(
+                                  FactNumConst(
+                                   3
+                                  ) [FactNumConst]
+                                ) [SingleFactor]
+                                MulopMod(
+                                ) [MulopMod]
+                                FactNumConst(
+                                 2
+                                ) [FactNumConst]
+                              ) [MultFactors]
+                            ) [SingleTerm]
+                            AddopPlus(
+                            ) [AddopPlus]
+                            MultFactors(
+                              SingleFactor(
+                                FactNumConst(
+                                 3
+                                ) [FactNumConst]
+                              ) [SingleFactor]
+                              MulopTimes(
+                              ) [MulopTimes]
+                              FactNumConst(
+                               2
+                              ) [FactNumConst]
+                            ) [MultFactors]
+                          ) [AddExpr]
+                          AddopMinus(
+                          ) [AddopMinus]
+                          SingleFactor(
+                            FactNumConst(
+                             3
+                            ) [FactNumConst]
+                          ) [SingleFactor]
+                        ) [AddExpr]
+                      ) [Expr]
+                    ) [FactExpr]
+                  ) [SingleFactor]
+                ) [AddExpr]
+              ) [Expr]
+            ) [DesigStmtAssignop]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            Expr(
+              SingleTerm(
+                NoExprMinus(
+                ) [NoExprMinus]
+                SingleFactor(
+                  FactVar(
+                    DesigSingleIdent(
+                     bodovi
+                    ) [DesigSingleIdent]
+                  ) [FactVar]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [Expr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDeclVoid]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:58:02,312 - ===================================
+INFO  01:58:02,319 - Deklarisana konstanta nula na liniji 5
+INFO  01:58:02,319 - Promenljiva koja oznacava konstantu nula ubacena u tabelu simbola!
+INFO  01:58:02,319 - Deklarisana konstanta jedan na liniji 6
+INFO  01:58:02,319 - Promenljiva koja oznacava konstantu jedan ubacena u tabelu simbola!
+INFO  01:58:02,319 - Deklarisana konstanta pet na liniji 7
+INFO  01:58:02,320 - Promenljiva koja oznacava konstantu pet ubacena u tabelu simbola!
+INFO  01:58:02,320 - Deklarisana promenljiva niz na liniji 9
+INFO  01:58:02,320 - Deklarisana promenljiva niz2 na liniji 9
+INFO  01:58:02,320 - Deklarisana promenljiva a na liniji 9
+INFO  01:58:02,320 - Deklarisana promenljiva b na liniji 9
+INFO  01:58:02,320 - Promenljiva koja oznacava niz niz ubacena u tabelu simbola!
+INFO  01:58:02,320 - Promenljiva koja oznacava niz niz2 ubacena u tabelu simbola!
+INFO  01:58:02,320 - Promenljiva a ubacena u tabelu simbola!
+INFO  01:58:02,320 - Promenljiva b ubacena u tabelu simbola!
+INFO  01:58:02,320 - Deklarisana promenljiva nizch na liniji 10
+INFO  01:58:02,321 - Promenljiva koja oznacava niz nizch ubacena u tabelu simbola!
+INFO  01:58:02,321 - Deklarisana promenljiva mat na liniji 11
+INFO  01:58:02,321 - Promenljiva koja oznacava matricu mat ubacena u tabelu simbola!
+INFO  01:58:02,321 - Obradjuje se funkcija main na liniji 14
+INFO  01:58:02,321 - Deklarisana promenljiva bodovi na liniji 15
+INFO  01:58:02,321 - Promenljiva bodovi ubacena u tabelu simbola!
+INFO  01:58:02,321 - Deklarisana promenljiva bt na liniji 16
+INFO  01:58:02,321 - Promenljiva bt ubacena u tabelu simbola!
+INFO  01:58:02,321 - Koristi se simbol bodovi na liniji 18
+INFO  01:58:02,322 - Koristi se simbol bodovi na liniji 19
+INFO  01:58:02,322 - Koristi se simbol bodovi na liniji 20
+INFO  01:58:02,322 - Koristi se simbol bodovi na liniji 20
+INFO  01:58:02,322 - Koristi se simbol jedan na liniji 20
+INFO  01:58:02,322 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 9
+INFO  01:58:02,322 - Koristi se simbol bodovi na liniji 21
+INFO  01:58:02,322 - Koristi se simbol bodovi na liniji 21
+INFO  01:58:02,323 - Koristi se simbol pet na liniji 21
+INFO  01:58:02,323 - Koristi se simbol bodovi na liniji 22
+INFO  01:58:02,323 - Koristi se simbol bodovi na liniji 23
+INFO  01:58:02,323 - Koristi se simbol niz na liniji 26
+INFO  01:58:02,323 - Koristi se simbol niz na liniji 27
+INFO  01:58:02,323 - Koristi se simbol nula na liniji 27
+INFO  01:58:02,323 - Koristi se simbol niz na liniji 27
+INFO  01:58:02,324 - Koristi se simbol jedan na liniji 27
+INFO  01:58:02,324 - Koristi se simbol niz na liniji 28
+INFO  01:58:02,324 - Koristi se simbol niz na liniji 28
+INFO  01:58:02,324 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,324 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,324 - Koristi se simbol jedan na liniji 29
+INFO  01:58:02,324 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,325 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,325 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,325 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,325 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,325 - Koristi se simbol niz na liniji 29
+INFO  01:58:02,325 - Koristi se simbol bodovi na liniji 30
+INFO  01:58:02,325 - Koristi se simbol niz na liniji 30
+INFO  01:58:02,327 - Koristi se simbol niz na liniji 30
+INFO  01:58:02,327 - Koristi se simbol niz na liniji 30
+INFO  01:58:02,327 - Koristi se simbol niz na liniji 30
+INFO  01:58:02,327 - Koristi se simbol bodovi na liniji 31
+INFO  01:58:02,328 - Koristi se simbol niz na liniji 32
+INFO  01:58:02,328 - Koristi se simbol niz na liniji 32
+INFO  01:58:02,328 - Koristi se simbol mat na liniji 34
+INFO  01:58:02,328 - Koristi se simbol mat na liniji 35
+INFO  01:58:02,328 - Koristi se simbol mat na liniji 35
+INFO  01:58:02,328 - Koristi se simbol mat na liniji 35
+INFO  01:58:02,328 - Koristi se simbol niz na liniji 35
+INFO  01:58:02,329 - Koristi se simbol nula na liniji 35
+INFO  01:58:02,329 - Koristi se simbol niz na liniji 35
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 36
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 36
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 36
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 36
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 36
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 36
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 37
+INFO  01:58:02,329 - Koristi se simbol mat na liniji 37
+INFO  01:58:02,329 - Koristi se simbol jedan na liniji 37
+INFO  01:58:02,329 - Koristi se simbol niz na liniji 37
+INFO  01:58:02,329 - Koristi se simbol niz na liniji 37
+INFO  01:58:02,330 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 8
+INFO  01:58:02,330 - Koristi se simbol niz na liniji 37
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 38
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 39
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 39
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 39
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 40
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 40
+INFO  01:58:02,330 - Koristi se simbol mat na liniji 40
+INFO  01:58:02,330 - Koristi se simbol nizch na liniji 42
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 43
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 43
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 44
+INFO  01:58:02,331 - Koristi se simbol jedan na liniji 44
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 44
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 45
+INFO  01:58:02,331 - Koristi se simbol pet na liniji 45
+INFO  01:58:02,331 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 7
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 45
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 46
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 46
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 47
+INFO  01:58:02,331 - Koristi se simbol jedan na liniji 47
+INFO  01:58:02,331 - Koristi se simbol nizch na liniji 47
+INFO  01:58:02,331 - Koristi se simbol bodovi na liniji 50
+INFO  01:58:02,331 - Koristi se simbol bodovi na liniji 51
+INFO  01:58:02,331 - Koristi se simbol bodovi na liniji 51
+INFO  01:58:02,331 - Koristi se simbol pet na liniji 51
+INFO  01:58:02,331 - Koristi se simbol a na liniji 51
+INFO  01:58:02,331 - Koristi se simbol jedan na liniji 51
+INFO  01:58:02,331 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 21
+INFO  01:58:02,331 - Koristi se simbol bodovi na liniji 51
+INFO  01:58:02,331 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 51
+INFO  01:58:02,331 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 54
+INFO  01:58:02,331 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 54
+INFO  01:58:02,331 - Kompatibilni su tipovi za sabiranje ili oduzimanje na liniji: 51
+INFO  01:58:02,331 - Koristi se simbol bodovi na liniji 52
+INFO  01:58:02,332 - ===================================
+INFO  01:58:02,332 -  Deklarisanih promenljivih ima = 8
+INFO  01:58:02,332 - ===================================
+INFO  01:58:02,350 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,12 @@
+// Test301
+
+program test301
+
+{
+	void main()	
+	{
+
+		mat[mat[mat[0][0]-1][mat[0][0]-1]][mat[0][0] - niz[0]]++;
+			
+	}
+}

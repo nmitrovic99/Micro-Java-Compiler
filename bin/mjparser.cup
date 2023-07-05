@@ -1,0 +1,403 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected = false;
+
+	Logger log = Logger.getLogger(getClass());
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected=true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROGRAM, LBRACE, RBRACE, CONST, EQUAL, SEMI, COMMA;
+terminal LSQUARE, RSQUARE, CLASS, EXTENDS, LPAREN, RPAREN, VOID, IF, WHILE, BREAK, CONTINUE, RETURN, READ;
+terminal PRINT, POINT, FOREACH, ARROWFUNC, ELSE, INC, DEC, LOGOR, LOGAND, NEW;
+terminal EQUALTO, NOTEQUALTO, GT, GTE, LT, LTE, PLUS, MINUS, TIMES, DIVIDE, MOD, COLON;
+terminal Integer NUMCONST ;
+terminal Character CHARCONST ;
+terminal Boolean BOOLCONST ;
+terminal String IDENT ;
+
+nonterminal ProgDeclList, MethodDeclList, ConstDecl, VarDecl, ClassDecl, ConstDeclList;
+nonterminal ConstDeclIdentList, VarDeclList, VarDeclIdentList, ArraySquares, ClassExtends;
+nonterminal ConstructorDeclList, ConstructorDecl, FormPars, StatementList, FormalParams, FormalParamDecl;
+nonterminal Statement, Condition, Matched, Unmatched;
+nonterminal Assignop, DesigExist, DesigExistList, CondTerm;
+nonterminal CondFact, Relop, ExprMinus, Addop, Mulop, Label;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, MethodDecl, MethodTypeName, MethodVoidName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Factor, Term, Terms, Expr, DesignatorStatement, Idents;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expressions, ActPars, ActualParams;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Constant, ConstNum, ConstBool, ConstChar;
+
+// Program = "program" ident {ConstDecl | VarDecl | ClassDecl } "{" {MethodDecl} "}"
+Program ::= (Program) PROGRAM ProgramName ProgDeclList LBRACE MethodDeclList RBRACE;
+
+ProgramName ::= (ProgramName) IDENT:progName;
+
+// {ConstDecl | VarDecl | ClassDecl }
+ProgDeclList ::= 	(ProgConstDeclarations) ProgDeclList ConstDecl
+					|
+					(ProgVarDeclarations) ProgDeclList VarDecl
+					|
+					(ProgClassDeclarations) ProgDeclList ClassDecl
+					|
+					(NoProgDecl) /* epsilon */
+					;
+				
+ConstDeclList ::= 	(ConstDeclarations) ConstDeclList ConstDecl
+					|
+					(NoConstDecl) /* epsilon */
+					;
+				
+// ConstDecl =  "const" Type ident"="(numConst | charConst | boolConst) {, ident "=" (numConst |charConst | boolConst)} ";"
+ConstDecl ::= (ConstDecl) CONST Type:constantType ConstDeclIdentList SEMI;
+
+//ConstDeclIdentList = ident"="(numConst | charConst | boolConst) {, ident "=" (numConst |charConst | boolConst)}
+ConstDeclIdentList ::= 	(MultipleConstDeclarations) ConstDeclIdentList COMMA IDENT:constantName EQUAL Constant:constant
+						|
+						(SingleConstDeclarations) IDENT:constantName EQUAL Constant:constant
+						;
+
+//Constant = (numConst | charConst | boolConst)					
+Constant ::= 	(ConstantNum) ConstNum:numconst
+				|
+				(ConstantBool) ConstBool:boolconst
+				|
+				(ConstantChar) ConstChar:charconst
+				;
+				
+ConstNum ::= (ConstNum) NUMCONST:numconst;
+
+ConstBool ::= (ConstBool) BOOLCONST:boolconst;
+
+ConstChar ::= (ConstChar) CHARCONST:charconst;
+				
+			
+VarDeclList ::= (VarDeclarations) VarDeclList VarDecl  
+				|
+				(NoVarDecl)/* epsilon */ 
+				;
+// VarDecl = Type ident ["[" "]"] {"," ident ["[" "]"]} ";"	
+// VarDecl: = Type ident ["[" "]" ["[" "]"]] {"," ident ["[" "]" ["[" "]"]]} ";"			
+VarDecl ::= (VarDeclaration) Type:varType VarDeclIdentList SEMI
+			|
+			(VarDeclCommaError) error COMMA:l
+			{: parser.report_error("Uspesan oporavak od greske pri deklaraciji globalne promenljive za , u liniji " + lleft, null);  :}
+			|
+			(VarDeclSemiError) error SEMI:l
+			{: parser.report_error("Uspesan oporavak od greske pri deklaraciji globalne promenljive za ; u liniji " + lleft, null);  :}
+			;
+
+// VarDeclIdentList = ident ["[" "]"] {"," ident ["[" "]"]}
+VarDeclIdentList ::= 	(MultipleVarDeclarations) VarDeclIdentList COMMA IDENT:varMultName ArraySquares:arrSquareMult
+						|
+						(SingleVarDeclarations) IDENT:varSingleName ArraySquares:arrSquareSingle
+						;
+
+// ArraySquares = ["[" "]"]					
+ArraySquares ::= 	(ArrayMatrix) LSQUARE RSQUARE LSQUARE RSQUARE
+					|
+					(ArraySquares) LSQUARE RSQUARE
+					|
+					(NoArraySquares) /* epsilon */
+					;
+
+// FormalParams = [FormPars] 
+FormalParams ::= 	(FormalParameters) FormPars 
+					| 
+					(NoFormalParams) /* epsilon */ 
+					;
+				
+MethodDeclList ::= 	(MethodDeclarations) MethodDeclList MethodDecl
+					|
+					(NoMethodDecl)/* epsilon */ 
+					;
+
+// MethodDecl = (Type | "void") ident "(" [FormPars] ")" {VarDecl} "{" {Statement} "}"					
+MethodDecl ::= 	(MethodDeclType) MethodTypeName LPAREN FormalParams RPAREN VarDeclList LBRACE StatementList RBRACE
+				|
+				(MethodDeclVoid) MethodVoidName LPAREN FormalParams RPAREN VarDeclList LBRACE StatementList RBRACE
+				;
+				
+MethodTypeName ::= (MethodTypeName) Type:retType IDENT:methName;
+
+MethodVoidName ::= (MethodVoidName) VOID:retVoid IDENT:methName;
+
+// FormPars = Type ident ["[" "]"] {"," Type ident ["[" "]"]}
+// FormPars = Type ident ["[" "]" ["[" "]"]] {"," Type ident ["[" "]" ["[" "]"]]}
+FormPars ::= 		(FormalParamDecls) FormPars COMMA FormalParamDecl
+					|
+					(SingleFormalParamDecl) FormalParamDecl
+					;
+
+// FormalParamDecl = Type ident ["[" "]"]				
+FormalParamDecl ::= (FormalParamDecl) Type:type IDENT:ident ArraySquares;
+
+// Type = ident
+Type ::= (Type) IDENT:typeName;
+				
+StatementList ::= 	(Statements) StatementList Statement
+					|
+					(NoStatement)/* epsilon */ 
+					;
+
+// ovo Matched i Unmatched mi u sustini i ne treba jer ne radi if i else za nivo B					
+Statement ::= 	(MatchedStmt) Matched 
+				| 
+				(UnmachedStmt) Unmatched 
+				;
+
+Unmatched ::= 	(UnmatchedIf) IF LPAREN Condition RPAREN Statement 
+				| 
+				(UnmatchedIfElse) IF LPAREN Condition RPAREN Matched ELSE Unmatched
+				;
+
+				// Statement = DesignatorStatement ";"
+Matched ::= 	(StmtDesignator) DesignatorStatement SEMI
+				|
+				// DesignatorStatement = Designator Assignop Expr
+				(DesigStmtAssignop) Designator:dest Assignop Expr:e SEMI
+				|
+				(ErrAssignment) Designator Assignop error SEMI:l
+			  	{: parser.report_error("Uspesan oporavak od greske pri dodeli vrednosti u liniji " + lleft, null);  :}
+			  	|
+			  	// Statement = "if" "(" Condition ")" Statement ["else" Statement]
+				(StmtIfElse) IF LPAREN Condition RPAREN Matched ELSE Matched
+				|
+				// Statement = "while" "(" Condition ")" Statement
+				(StmtWhile) WHILE LPAREN Condition RPAREN Matched
+				|
+				// Statement = "break" ";"
+				(StmtBreak) BREAK SEMI
+				|
+				// Statement = "continue" ";"
+				(StmtContinue) CONTINUE SEMI
+				|
+				// Statement = "return" [Expr] ";"
+				(StmtReturn) RETURN SEMI
+				|
+				// Statement = "return" [Expr] ";"
+				(StmtReturnExpr) RETURN Expr:t SEMI
+				|
+				// Statement = "read" "(" Designator ")" ";"
+				(StmtRead) READ LPAREN Designator:designator RPAREN SEMI
+				|
+				// Statement = "print" "(" Expr ["," numConst] ")" ";"
+				(StmtPrint) PRINT LPAREN Expr:expr RPAREN SEMI
+				|
+				// Statement = "print" "(" Expr ["," numConst] ")" ";"
+				(StmtPrintNum) PRINT LPAREN Expr:expr COMMA NUMCONST:numconst RPAREN SEMI
+				|
+				// Statement = Designator "." "foreach" "(" ident "=>" Statement ")" ";"
+				(StmtForeach) Designator POINT FOREACH LPAREN IDENT ARROWFUNC Matched RPAREN SEMI
+				|
+				// Statement = "{" {Statement} "}"
+				(ListOfStatement) LBRACE StatementList RBRACE
+				;
+						
+						// DesignatorStatement = Designator "(" [ActPars] ")"
+DesignatorStatement ::= (DesigStmtFuncCall) Designator:desig LPAREN ActualParams RPAREN
+						|
+						// DesignatorStatement = Designator "++"
+						(DesigStmtInc) Designator:desig INC
+						|
+						// DesignatorStatement = Designator "--"
+						(DesigStmtDec) Designator:desig DEC
+						|
+						// DesignatorStatement = "[" [Designator] {"," [Designator]}"]" "=" Designator
+						(DesigStmtList) LSQUARE DesigExistList RSQUARE EQUAL Designator:designator
+						;
+
+// ActualParams = [ActPars]						
+ActualParams ::= 	(ActualParameters) ActPars
+					|
+					(NoActualParams) /* epsilon */
+					;
+
+// DesigExist = [Designator]					
+DesigExist ::= 	(DesigExis) Designator:designator
+				|
+				(NoDesigExist) /* epsilon */
+				;
+
+// DesigExistList = [Designator] {"," [Designator]}
+DesigExistList ::= 		(MultipleDesigExist) DesigExistList COMMA DesigExist 
+						|
+						(SingleDesigExist) DesigExist 
+						;
+
+// ActPars = Expr {"," Expr}					
+ActPars ::= (ActPars) Expressions;
+
+// Expressions = Expr {"," Expr}
+Expressions ::= (MultExpressions) Expressions COMMA Expr:expr
+				|
+				(SingleExpr) Expr:e
+				;
+
+// Condition = CondTerm {"||" CondTerm}
+Condition ::= 	(MultCondTerms) Condition LOGOR CondTerm
+				|
+				(SingleCondTerm) CondTerm
+				;
+
+// CondTerm = CondFact {"&&" CondFact}
+CondTerm ::= 	(MultCondFacts) CondTerm LOGAND CondFact
+				|
+				(SingleCondFact) CondFact
+				;
+
+// CondFact = Expr [Relop Expr]				
+CondFact ::= 	(CondFactExprRelop) Expr:first Relop:relop Expr:second
+				|
+				(CondFactExpr) Expr:expr
+				;
+
+// Expr = ["-"] Term {Addop Term}		
+Expr ::= (Expr) Terms;
+
+//ExprMinus = ["-"]
+ExprMinus ::= 	(ExprMinus) MINUS
+				|
+				(NoExprMinus) /* epsilon */
+				;
+
+// Terms = ["-"] Term {Addop Term}				
+Terms ::= 	(AddExpr) Terms:te Addop:addOp Term:t
+			|
+			(SingleTerm) ExprMinus:minus Term:t;
+
+// Term = Factor {Mulop Factor}
+Term ::= 	(MultFactors) Term:te Mulop:mulOp Factor:t
+			|
+			(SingleFactor) Factor:t
+			;
+			
+Factor ::= 	(FactNumConst) NUMCONST:numconst
+			|
+			(FactCharConst) CHARCONST:charconst
+			|
+			(FactBoolConst) BOOLCONST:boolconst
+			|
+		   	(FactVar) Designator:d
+		    |
+		    // Factor = Designator "(" [ActPars] ")"
+		   	(FactFuncCall) Designator:func LPAREN ActualParams RPAREN
+		   	|
+		   	// Factor = "(" Expr ")"
+		   	(FactExpr) LPAREN Expr RPAREN
+		   	|
+		   	// Factor = "new" Type "[" Expr "]"
+		   	(FactNewArray) NEW Type LSQUARE Expr RSQUARE
+		   	|
+		   	//Factor: = "new" Type "[" Expr "]" "[" Expr "]"
+		   	(FactNewMatrix) NEW Type LSQUARE Expr RSQUARE LSQUARE Expr RSQUARE
+		   	|
+		   	// Factor = "new" Type "(" [ActPars] ")"
+		   	(FactNewParams) NEW Type LPAREN ActualParams RPAREN
+		   	;
+
+// Designator = ident {"." ident | "[" Expr "]"}			
+Designator ::= 	(DesigMoreIdents) Designator:desig Idents:idents
+				|
+				(DesigSingleIdent) IDENT:name
+				;
+
+// Idents = "." ident | "[" Expr "]"
+Idents ::= 	(IdentField) POINT IDENT:name
+			|
+			(IdentArray) LSQUARE Expr:exp RSQUARE
+			;
+			
+Label ::= (Label) IDENT;
+
+// Assignop = "="
+Assignop ::= (Assignop) EQUAL;				
+
+// Relop = "==" | "!=" | ">" | ">=" | "<" | "<="
+Relop ::= 	(RelopEqTo) EQUALTO
+			|
+			(RelopNoEqTo) NOTEQUALTO
+			|
+			(RelopGT) GT
+			|
+			(RelopGTE) GTE
+			|
+			(RelopLT) LT
+			|
+			(RelopLTE) LTE
+			;
+
+// Addop = "+" | "-"			
+Addop ::= 	(AddopPlus) PLUS
+			|
+			(AddopMinus) MINUS
+			;
+
+// Mulop = "*" | "/" | "%"
+Mulop ::= 	(MulopTimes) TIMES
+			|
+			(MulopDivide) DIVIDE
+			|
+			(MulopMod) MOD
+			;
+			
+			
+				
+ClassDecl ::= 	(ClassDeclBody) CLASS IDENT ClassExtends LBRACE VarDeclList LBRACE ConstructorDeclList MethodDeclList RBRACE RBRACE
+				|
+				(ClassDeclNoBody) CLASS IDENT ClassExtends LBRACE VarDeclList RBRACE
+				;
+
+ClassExtends ::= 	(ClassExtendsYes) EXTENDS Type
+					|
+					(ClassExtendsNo) /* epsilon */
+					;
+				
+ConstructorDeclList ::= (ConstructorDeclarations) ConstructorDeclList ConstructorDecl 
+						|
+						(NoConstructorDecl)/* epsilon */ 
+						;
+
+/* ovo dole je za C nivo
+ConstructorDecl ::= (ConstructorDecl) IDENT LPAREN FormalParams RPAREN VarDeclList LBRACE StatementList RBRACE;
+*/
+			

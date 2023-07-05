@@ -1,0 +1,34 @@
+program MJProgram
+	int x; int y;
+	//int x;
+{
+
+	int k () int c; {
+		c = 2;
+		
+		print(0);
+		
+		return c+2;
+	}
+
+	int main() int prvi; {
+		x = 3;
+		prvi=100;
+		print(prvi);
+		k();
+		print(prvi);
+		
+		print(1);
+		
+		y = 4 + 9 + k();
+		print(prvi);
+		
+		print(x);
+		
+		k();
+		
+		print(y);
+		
+		return 1;
+	}
+}

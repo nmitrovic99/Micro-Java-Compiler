@@ -1,0 +1,120 @@
+program MJProgram
+	int x; int y;
+	int niz1[], niz2[];
+{
+
+	int k () int c; {
+		c = 2;
+		
+		print(0);
+		
+		return c+2;
+	}
+
+	void main() int proba; char z; int stotka; bool istina1, istina2;{ 
+		niz1=new int[20];
+		niz1[0]=1000;
+		niz1[1]=1001;
+		niz1[2]=1002;
+		niz1[3]=1003;
+		[x,y,,stotka]=niz1;
+		print(x);
+		print(y);
+		print(proba);
+		print(stotka);
+		stotka=100;
+		print(stotka);
+		stotka=niz1[7];
+		print(stotka);
+		niz1[7]=223;
+		print(niz1[7]);
+		stotka=niz1[7];
+		print(stotka);
+		niz1[19]=19;
+		stotka=niz1[19];
+		print(stotka);
+		print(niz1[19]);
+		print(niz1[0]);
+		//read(istina2);
+		//print(istina2);
+		istina1=true;
+		istina2=false;
+		print(istina1);
+		read(x);
+		print(x);
+		x = 3;
+		x++;
+		x++;
+		proba=1024;
+		print(proba);
+		proba--; proba--; proba--; proba--; proba--;
+		k();
+		print(proba);
+		proba++; proba--; proba++; proba++;
+		
+		//read(x);
+		print(x);
+		stotka=101;
+		stotka++;
+		stotka++;
+		print(proba);
+		print(stotka);
+		
+		x=stotka-proba;
+		print(x);
+		
+		z='c';
+		print(z);
+		
+		//istina=false;
+		//print(istina);
+		
+		print(1);
+		
+		y = 4 + 9 + k();
+		
+		print(x);
+		
+		print(stotka);
+		print(proba);
+		
+		k();
+		//read(x);
+		print(x);
+		
+		print(y);
+		
+		print(stotka);
+		
+		y++; y++; y++;
+		print(y);
+		y = 4 + 9 + k() + x;
+		print(y);
+		print(proba);
+		print(stotka);
+		
+		stotka--;
+		print(stotka);
+		
+		x=-(stotka*3/4+12)/11+6+stotka;
+		print(x);
+		
+		print(x,45);
+		
+		print(z,123);
+		
+		y=-4+44;
+		print(y);
+		
+		//read(x);
+		print(x);
+		
+		//read(x);
+		print(x);
+		
+		//read(x);
+		print(x);
+		
+		//return 1;
+	}
+}
